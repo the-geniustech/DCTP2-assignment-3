@@ -1,12 +1,17 @@
 {
-  "name": "assignment-april",
+  "name": "book-library-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple Node.js API for managing a book library",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "node",
+    "api",
+    "library",
+    "books"
+  ],
+  "author": "Olaogun Hakeem",
+  "license": "MIT"
 }
