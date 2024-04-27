@@ -94,7 +94,7 @@ const server = http.createServer((req, res) => {
   } else if (req.method === "GET") {
     if (pathname === "/users") {
       sendJSONResponse(res, 200, users);
-    } else if (pathname === "/books") {
+    } else if (pathname === "/books" || pathname === "/") {
       sendJSONResponse(res, 200, books);
     }
   } else if (req.method === "DELETE") {
